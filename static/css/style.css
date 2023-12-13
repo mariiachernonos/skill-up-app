@@ -1,0 +1,22 @@
+html {
+    font-family: sans-serif;
+}
+
+h1,
+h2 {
+    color: rgb(255, 103, 180);
+}
+
+p {
+    color: rgb(0, 38, 165);
+}
+
+a {
+    color: rgb(255, 163, 193);
+}
+
+a:visited {
+    color: rgb(155, 68, 83);
+}
+
+/*grid: auto-flow / 1fr 1fr 1fr;
