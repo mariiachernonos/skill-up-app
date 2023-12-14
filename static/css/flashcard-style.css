@@ -1,0 +1,135 @@
+html {
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(238, 226, 210);
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "eng geo"
+    "eng ru";
+    align-items: center;
+    margin-right: 50px;
+}
+
+.eng-col {
+    grid-area: eng;
+}
+
+.geo-col {
+    grid-area: geo;
+}
+
+.ru-col {
+    grid-area: ru;
+}
+
+li:hover{
+    color:antiquewhite;
+}
+
+#black {
+    transition: background-color .6s ease-in;
+}
+#black:hover{
+    background-color: black;
+}
+
+#white {
+    transition: background-color .6s ease-in;
+}
+#white:hover{
+    background-color: white;
+}
+
+#gray {
+    transition: background-color .6s ease-in;
+}
+#gray:hover{
+    background-color: gray;
+}
+
+#red {
+    transition: background-color .6s ease-in;
+}
+#red:hover{
+    background-color: red;
+}
+
+#orange {
+    transition: background-color .6s ease-in;
+}
+#orange:hover{
+    background-color: orange;
+}
+
+#yellow {
+    transition: background-color .6s ease-in;
+}
+#yellow:hover{
+    background-color: rgb(255, 208, 0);
+}
+
+#green {
+    transition: background-color .6s ease-in;
+}
+#green:hover{
+    background-color: green;
+}
+
+#light-blue {
+    transition: background-color .6s ease-in;
+}
+#light-blue:hover{
+    background-color: lightskyblue;
+}
+
+#blue {
+    transition: background-color .6s ease-in;
+}
+#blue:hover{
+    background-color: blue;
+}
+
+#pink {
+    transition: background-color .6s ease-in;
+}
+#pink:hover{
+    background-color: pink;
+}
+
+#brown {
+    transition: background-color .6s ease-in;
+}
+#brown:hover{
+    background-color:saddlebrown;
+}
+
+#light {
+    transition: background-color 1.2s ease-in;
+}
+#light:hover{
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
+
+#dark {
+    transition: background-color 1.2s ease-in;
+}
+#dark:hover{
+    background-color: rgb(59, 59, 59);
+    color: rgb(59, 59, 59);
+}
