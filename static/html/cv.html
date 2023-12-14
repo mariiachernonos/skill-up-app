@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My CV</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<script
+			src="../js/script.js"
+			onload="getSummary('../data/summary.txt')"
+		></script>
+	</head>
+
+	<body>
+		<div id="cv">
+			<h1>Mariia Chernonos</h1>
+			<div id="summary">
+				<h2>Summary</h2>
+				<p id="summary-p">placeholder</p>
+			</div>
+
+			<div id="skills">
+				<h2>Skills</h2>
+				<ul>
+					<li>Python, Django, Django REST, Flask</li>
+					<li>JavaScript, React.JS, HTML, CSS, SCSS</li>
+					<li>HTTP, REST, WebSocket, XML, JSON</li>
+					<li>PostgreSQL, MongoDB, MySQL</li>
+					<li>Scrum, Kanban, Jira, Confluence, Postman</li>
+					<li>Strong OOP, SOLID, Design Patterns, SDLC, GIT, Unit Testing</li>
+					<li>GitLab CI/CD, Docker</li>
+				</ul>
+			</div>
+
+			<div id="experience">
+				<h2>Experience</h2>
+				<ul>
+					<li class="wrapper">
+						<p class="comp-name">Under NDA</p>
+						<p class="date">Jan 2022 - Present</p>
+						<p class="proj-desc">Project Description:</p>
+						<p class="task-perf">Tasks performed:</p>
+						<ul class="tasks-list">
+							<li>rkvjnvljfsvnf</li>
+							<li>gvoljunhoerdnhfvgr</li>
+						</ul>
+					</li>
+					<li class="wrapper">
+						<p class="comp-name">Sigma Software</p>
+						<p class="date">Dec 2020 - Dec 2021</p>
+						<p class="proj-desc">Project Description:</p>
+						<p class="tpf">Tasks performed:</p>
+						<ul class="tasks-list">
+							<li>rkvjnvljfsvnf</li>
+							<li>gvoljunhoerdnhfvgr</li>
+						</ul>
+					</li>
+					<li class="wrapper">
+						<p class="comp-name">Under NDA</p>
+						<p class="date">Jul 2020 - Dec 2020</p>
+						<p class="proj-desc">Project Description:</p>
+						<p class="tpf">Tasks performed:</p>
+						<ul class="tasks-list">
+							<li>rkvjnvljfsvnf</li>
+							<li>gvoljunhoerdnhfvgr</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div id="education">
+				<h2>Education</h2>
+				<p class="uni-name">Kharkiv National University of Radio Electronics</p>
+				<p class="date">2018-2022</p>
+			</div>
+		</div>
+	</body>
 </html>

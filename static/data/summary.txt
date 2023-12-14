@@ -1,0 +1,11 @@
+Python software developer with 4 years of experience. Good knowledge
+of Python and Django. Skilled at working with databases, such as
+MySQL, PostgreSQL and MongoDB. Extensive experience in building
+client-server applications and REST API services. Adhere best
+engineering practices to deliver high quality results according to
+requirements: unit and integration testing, peer code review.
+Proactive developer with strong communication skills, always strive to
+exceed expectations. Able to work in an environment that requires
+independent problem-solving skills and focus under short deadlines.
+Overall, make a valuable and essential contribution to solving the
+projects domain issues and growing the codebase.
