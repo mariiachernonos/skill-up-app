@@ -35,7 +35,23 @@ ul {
 
 #summary {
     padding-inline-start: 10px;
-    
+    display: grid;
+    grid-template-areas: 
+    "h2 . . ."
+    "p p p img";
+}
+
+#summary h2 {
+    grid-area: h2;
+}
+
+#summary p {
+    grid-area: p;
+}
+
+#summary img {
+    grid-area: img;
+    width: 200px;
 }
 
 .wrapper {
