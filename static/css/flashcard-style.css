@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
 html {
-    font-family: sans-serif;
+    font-family: 'Afacad', sans-serif;
     padding: 0%;
     margin: 0%;
     background-color: rgb(238, 226, 210);
@@ -12,17 +14,18 @@ ul {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-end: 300px;
 }
 
 .card {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
-    "eng geo"
-    "eng ru";
+    width: 300px;
+    grid-template-columns: 100px 200px;
+    grid-template-areas:
+        "eng geo"
+        "eng ru";
     align-items: center;
-    margin-right: 50px;
 }
 
 .eng-col {
@@ -37,91 +40,103 @@ ul {
     grid-area: ru;
 }
 
-li:hover{
-    color:antiquewhite;
+li:hover {
+    color: antiquewhite;
 }
 
 #black {
     transition: background-color .6s ease-in;
 }
-#black:hover{
+
+#black:hover {
     background-color: black;
 }
 
 #white {
     transition: background-color .6s ease-in;
 }
-#white:hover{
+
+#white:hover {
     background-color: white;
 }
 
 #gray {
     transition: background-color .6s ease-in;
 }
-#gray:hover{
+
+#gray:hover {
     background-color: gray;
 }
 
 #red {
     transition: background-color .6s ease-in;
 }
-#red:hover{
+
+#red:hover {
     background-color: red;
 }
 
 #orange {
     transition: background-color .6s ease-in;
 }
-#orange:hover{
+
+#orange:hover {
     background-color: orange;
 }
 
 #yellow {
     transition: background-color .6s ease-in;
 }
-#yellow:hover{
+
+#yellow:hover {
     background-color: rgb(255, 208, 0);
 }
 
 #green {
     transition: background-color .6s ease-in;
 }
-#green:hover{
+
+#green:hover {
     background-color: green;
 }
 
 #light-blue {
     transition: background-color .6s ease-in;
 }
-#light-blue:hover{
+
+#light-blue:hover {
     background-color: lightskyblue;
 }
 
 #blue {
     transition: background-color .6s ease-in;
 }
-#blue:hover{
+
+#blue:hover {
     background-color: blue;
 }
 
 #pink {
     transition: background-color .6s ease-in;
 }
-#pink:hover{
+
+#pink:hover {
     background-color: pink;
 }
 
 #brown {
     transition: background-color .6s ease-in;
 }
-#brown:hover{
-    background-color:saddlebrown;
+
+#brown:hover {
+    background-color: saddlebrown;
 }
 
 #light {
     transition: background-color 1.2s ease-in;
 }
-#light:hover{
+
+#light:hover {
     background-color: whitesmoke;
     color: whitesmoke;
 }
@@ -129,7 +144,8 @@ li:hover{
 #dark {
     transition: background-color 1.2s ease-in;
 }
-#dark:hover{
+
+#dark:hover {
     background-color: rgb(59, 59, 59);
     color: rgb(59, 59, 59);
 }
